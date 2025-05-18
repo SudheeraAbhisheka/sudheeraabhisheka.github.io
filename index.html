@@ -16,9 +16,10 @@
     header {
       background: #333;
       color: #fff;
-      padding: 1rem;
+      padding: 0.5rem;
       text-align: center;
     }
+
     nav {
       background: #444;
       padding: 0.5rem;
@@ -77,6 +78,18 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+    /* Contact Info Styles */
+    .contact-info {
+      margin-top: 1rem;
+    }
+    .contact-info a {
+      color: #fff;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    .contact-info p {
+      margin: 0.5rem 0 0;
+    }
     /* Initially show only New Projects */
     #past {
       display: none;
@@ -86,7 +99,6 @@
 <body>
   <header>
     <h1>My Portfolio</h1>
-    <p>Welcome to my developer portfolio.</p>
   </header>
   <nav>
     <a href="#featured" id="newProjectsLink">New Projects</a>
@@ -109,8 +121,7 @@
           <p>
             <a href="https://sudheeraabhisheka.github.io/Serenity-Scheduler/" target="_blank">Project Overview</a> |
             <a href="https://github.com/SudheeraAbhisheka/Serenity-Scheduler" target="_blank">GitHub</a>
-          </p>
-                      
+          </p>          
         </div>
         <!-- AccuTransitSim -->
         <div class="project-card featured">
@@ -128,87 +139,18 @@
     <section id="past">
       <h2>Past Projects</h2>
       <div class="projects">
-        <!-- Project 1: Defends against an army of killer robots -->
-        <div class="project-card">
-          <h3>Defends against an army of killer robots</h3>
-          <p>The game is played on a resizable grid, which is initially empty except for a single square at the centre (the “citadel”). Defend the citadel from an army of robots generated at the grid corners. Each robot moves at different speeds, and walls can be built with a ten-second delay between placements.</p>
-          <p><strong>Technologies:</strong> Java Completable-Futures, Java Swing</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Defends-against-an-army-of-killer-robots" target="_blank">GitHub</a> |
-            <a href="https://youtu.be/Eyj7Smcmf74" target="_blank">Demo</a>
-          </p>
-        </div>
-        <!-- Project 2: Collect the keys in the maze -->
-        <div class="project-card">
-          <h3>Collect the keys in the maze</h3>
-          <p>Navigate through a maze where each door, numbered 1–6, can be opened by its corresponding key found scattered across grid squares.</p>
-          <p><strong>Technologies:</strong> Java, Strategy pattern &amp; Decorator pattern</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Collect-the-keys-in-the-maze" target="_blank">GitHub</a> |
-            <a href="https://youtu.be/Eyj7Smcmf74" target="_blank">Demo</a>
-          </p>
-        </div>
-        <!-- Project 3: Player, goal, and snake -->
-        <div class="project-card">
-          <h3>Player, goal, and snake</h3>
-          <p>A dynamic snake game where the snake gradually closes in on the player. If they collide, the player loses—with an option to undo moves by pressing ‘u’.</p>
-          <p><strong>Technologies:</strong> C89, Generic linked list</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Snake-player-and-goal" target="_blank">GitHub</a> |
-            <a href="https://youtu.be/LiE2RkhYMXs" target="_blank">Demo</a>
-          </p>
-        </div>
-        <!-- Project 5: Calendar Application with Plugins -->
-        <div class="project-card">
-          <h3>Calendar Application with Plugins</h3>
-          <p>A calendar application that connects with third-party plugins. Features include a 'Repeat' event plugin for recurring events and a 'Notify' event plugin that alerts with event details. Also supports internationalisation and reading .cal files via javaCC.</p>
-          <p><strong>Technologies:</strong> Java, javaCC</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Calendar_with_plugins" target="_blank">GitHub</a> |
-            <a href="https://www.youtube.com/watch?v=CWG8GGlgN4Y" target="_blank">Demo</a>
-          </p>
-        </div>
-        <!-- Project 6: Help Emergency Service Responses in Natural Disasters -->
-        <div class="project-card">
-          <h3>Help Emergency Service Responses in Natural Disasters</h3>
-          <p>An application to aid emergency services during natural disasters, employing multiple design patterns including Strategy, Decorator, Observer, State, and Dependency Injection.</p>
-          <p><strong>Technologies:</strong> Java</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Help-Emergency-service-responses-in-Natural-disasters" target="_blank">GitHub</a>
-          </p>
-        </div>
-        <!-- Project 7: Generate, Display, and Rank Roots in a Snakes and Ladders Structure -->
-        <div class="project-card">
-          <h3>Generate, Display, and Rank Roots in a Snakes and Ladders Structure</h3>
-          <p>An analytical project using weighted directed graphs, binary search trees, heaps, and manual linked lists to generate, display, and rank root structures in a game-like environment.</p>
-          <p><strong>Technologies:</strong> Weighted directed graphs, Binary search tree, Heaps, Manual linked lists</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Generate-display-and-rank-the-number-of-roots-in-a-structure-like-Snakes-and-Ladders" target="_blank">GitHub</a>
-          </p>
-        </div>
-        <!-- Project 8: Film Festivals -->
-        <div class="project-card">
-          <h3>Film Festivals</h3>
-          <p>A project focused on film festivals using MySQL for data management.</p>
-          <p><strong>Technologies:</strong> MySQL</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/Film-Festivals" target="_blank">GitHub</a>
-          </p>
-        </div>
-        <!-- Project 9: Calendar with Event Notifications -->
-        <div class="project-card">
-          <h3>Calendar with Event Notifications</h3>
-          <p>An Android application that provides calendar functionalities along with event notifications.</p>
-          <p><strong>Technologies:</strong> Android Studio</p>
-          <p>
-            <a href="https://github.com/SudheeraAbhisheka/CalendarWithEvents" target="_blank">GitHub</a>
-          </p>
-        </div>
+        <!-- ... existing past project cards ... -->
       </div>
     </section>
   </div>
   <footer>
-    <p>&copy; 2025 Sudheera Abhisheka. All rights reserved.</p>
+    <div class="contact-info">
+      <p>
+        <a href="mailto:sudheera.abhisheka@gmail.com">sudheera.abhisheka@gmail.com</a> |
+        <a href="tel:+94718892990">+94 71 88 92 990</a> |
+        <a href="https://www.linkedin.com/in/sudheera-abhisheka" target="_blank">LinkedIn</a>
+      </p>
+    </div>
   </footer>
   <script>
     function showSection(sectionId) {
